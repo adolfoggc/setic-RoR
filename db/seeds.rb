@@ -18,11 +18,11 @@ puts 'Generating Jobs...'
 			])
 puts 'Generating Jobs... [OK]'
 
-#puts 'Generating Employees...'
-#10.times do |i|
-#      Member.create!(  	
-#      					name: Faker::Name.name, 
-#                        job: Job.all.sample 
-#                      )
-#end		
-#puts 'Generating Employees... [OK]'
+puts 'Generating Employees...'
+10.times do |i|
+      Member.create!(  	
+      					name: Faker::Name.name, 
+                        job: Job.all.sample 
+                      )
+end		
+puts 'Generating Employees... [OK]'
